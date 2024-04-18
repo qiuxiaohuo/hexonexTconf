@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Qiu's 博客
+title: 邱小伙的博客
 subtitle: ''
 description: ''
 keywords:
@@ -13,8 +13,8 @@ timezone: ''
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
-permalink: :year/:month/:day/:title/
+url: http://qiuxiaohuo.github.io
+permalink: :title/
 permalink_defaults:
 pretty_urls:
   trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
@@ -62,7 +62,7 @@ prismjs:
 # order_by: Posts order. (Order by date descending by default)
 index_generator:
   path: ''
-  per_page: 10
+  per_page: 16
   order_by: -date
 
 # Category & Tag
@@ -113,3 +113,10 @@ emoji:
   className: github-emoji
   styles:
   customEmojis:
+
+# Plugin: search
+search:
+  path: search.xml
+  field: post
+  content: true
+  format: html
