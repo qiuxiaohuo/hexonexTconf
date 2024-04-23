@@ -98,10 +98,10 @@ open_graph:
 menu:
   home: / || fa fa-home
   #about: /about/ || fa fa-user
-  nichijou: /nichijou/ || fa-solid fa-sun
   tags: /tags/ || fa fa-tags
   categories: /categories/ || fa fa-th
   archives: /archives/ || fa fa-archive
+  nichijou: /nichijou/ || fa-solid fa-sun
   #schedule: /schedule/ || fa fa-calendar
   #sitemap: /sitemap.xml || fa fa-sitemap
   #commonweal: /404/ || fa fa-heartbeat
